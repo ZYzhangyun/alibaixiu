@@ -23,7 +23,7 @@ app.use(formidableMiddleware({
 	// 文件上传目录
 	uploadDir: path.join(__dirname, 'public', 'uploads'),
 	// 最大上传文件为2M
-	maxFileSize: 2 * 1024 * 1024,
+	maxFileSize: 20 * 1024 * 1024,
 	// 保留文件扩展名
 	keepExtensions: true
 }));
